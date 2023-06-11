@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "/components/Header";
+import Feed from "@/components/Feed";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,43 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        {/*Feed*/}
-        <p>
-          lotem- event compiled client and server successfully in 222 ms (1451
-          modules) - wait compiling... - event compiled client and server
-          successfully in 236 ms (1451 modules) - wait compiling... - event
-          compiled client and server successfully in 195 ms (1451 modules) -
-          wait compiling... - event compiled client and server successfully in
-          220 ms (1451 modules) - wait compiling... - event compiled client and
-          server successfully in 237 ms (1451 modules) - wait compiling... -
-          event compiled client and server successfully in 702 ms (1451 modules)
-          - wait compiling... - event compiled successfully in 79 ms (314
-          modules) - wait compiling...
-        </p>
-        <p>
-          lotem- event compiled client and server successfully in 222 ms (1451
-          modules) - wait compiling... - event compiled client and server
-          successfully in 236 ms (1451 modules) - wait compiling... - event
-          compiled client and server successfully in 195 ms (1451 modules) -
-          wait compiling... - event compiled client and server successfully in
-          220 ms (1451 modules) - wait compiling... - event compiled client and
-          server successfully in 237 ms (1451 modules) - wait compiling... -
-          event compiled client and server successfully in 702 ms (1451 modules)
-          - wait compiling... - event compiled successfully in 79 ms (314
-          modules) - wait compiling...
-        </p>
-        <p>
-          lotem- event compiled client and server successfully in 222 ms (1451
-          modules) - wait compiling... - event compiled client and server
-          successfully in 236 ms (1451 modules) - wait compiling... - event
-          compiled client and server successfully in 195 ms (1451 modules) -
-          wait compiling... - event compiled client and server successfully in
-          220 ms (1451 modules) - wait compiling... - event compiled client and
-          server successfully in 237 ms (1451 modules) - wait compiling... -
-          event compiled client and server successfully in 702 ms (1451 modules)
-          - wait compiling... - event compiled successfully in 79 ms (314
-          modules) - wait compiling...
-        </p>
+
+        <Feed />
+
         {/*Model*/}
         {children}
       </body>

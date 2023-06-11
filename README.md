@@ -14,4 +14,5 @@ pnpm dev
 
 참조 사이트
 - heroicons
-- 
+- pravatar
+- minifaker
