@@ -14,5 +14,5 @@ pnpm dev
 
 참조 사이트
 - heroicons
-- pravatar
-- minifaker
+- 사진 pravatar
+- 데이터 faker-js/faker
