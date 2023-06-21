@@ -5,7 +5,7 @@ function Feed(props) {
   return (
     <main>
       <section>
-        <Stories />
+        {/*임시 yw<Stories />*/}
         {/*post*/}
       </section>
       <section>
