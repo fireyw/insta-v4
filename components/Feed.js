@@ -1,12 +1,13 @@
 import React from "react";
 import Stories from "@/components/Stories";
+import Posts from "@/components/Posts";
 
 function Feed(props) {
   return (
     <main>
       <section>
         <Stories />
-        {/*post*/}
+        <Posts />
       </section>
       <section>
         {/*Mini profile*/}

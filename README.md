@@ -16,3 +16,5 @@ pnpm dev
 - heroicons
 - 사진 pravatar
 - 데이터 faker-js/faker
+- scrollbar 관련 tailwind scroll
+- img sample: splash
