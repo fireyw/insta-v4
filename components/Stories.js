@@ -7,12 +7,6 @@ function Stories(props) {
   const [current, setCurrent] = useState(false);
 
   useEffect(() => {
-    // const storyUsers = minifaker.array(20, (i) => ({
-    //   // username: minifaker.username({ locale: "en" }),
-    //   username: "y",
-    //   img: `https://i.pravatar.cc/150?img=${Math.ceil(Math.random() * 70)}`,
-    //   id: i,
-    // }));
     const storyUsers = [];
     for (let i = 0; i < 20; i++) {
       let user = {
@@ -26,7 +20,7 @@ function Stories(props) {
     setCurrent(true);
   }, []);
   return (
-    <div>
+    <div className="flex space-x-2 p-6 bg-white mt-8 border-gray-200 border overflow-x-auto rounded-sm scrollbar-none">
       {storyUsers.map(
         (user) =>
           current && (
